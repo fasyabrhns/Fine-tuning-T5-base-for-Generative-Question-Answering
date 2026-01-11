@@ -51,9 +51,17 @@ We utilize the **SQuAD (Stanford Question Answering Dataset)**, a reading compre
 ## 📁 Repository Structure
 
 ```text
-.
+finetuning-t5-question-answering/
+│
 ├── notebooks/
 │   └── task_2_deep_learning.ipynb    # Main Jupyter Notebook for QA Training
-├── reports/                          # Training logs and metrics
+│
+├── reports/                          # Training logs, metrics, and evaluation plots
+│   └── evaluation_results.md
+│
+├── results/                          # Directory for saved model checkpoints
+│   ├── checkpoint-final/             # The final fine-tuned T5 model
+│   └── tokenizer/                    # Tokenizer files
+│
 ├── requirements.txt                  # Python dependencies
 └── README.md                         # Project documentation
